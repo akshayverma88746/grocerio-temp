@@ -1,0 +1,86 @@
+[
+    {
+        "id": "g1",
+        "name": "Honey",
+        "price": 20,
+        "image": "./grocery/honey.png"
+
+    },
+    {
+        "id": "g2",
+        "name": "Chilly",
+        "price": 20,
+        "image": "./grocery/chilly.png"
+
+    },
+    {
+        "id": "g3",
+        "name": "Clove",
+        "price": 20,
+        "image": "./grocery/clove.png"
+
+    },
+    {
+        "id": "g4",
+        "name": "Coffee",
+        "price": 20,
+        "image": "./grocery/coffee.jpg"
+
+    },
+    {
+        "id": "g5",
+        "name": "Jeera",
+        "price": 20,
+        "image": "./grocery/jeera.png"
+
+    },
+    {
+        "id": "g6",
+        "name": "Black-Pepper",
+        "price": 20,
+        "image": "./grocery/blackpepper.png"
+
+    },
+    {
+        "id": "g7",
+        "name": "Cardomon",
+        "price": 20,
+        "image": "./grocery/cardamom.png"
+
+    },
+    {
+        "id": "g8",
+        "name": "Haldi",
+        "price": 20,
+        "image": "./grocery/haldi-turmeric-powder.png"
+
+    },
+    {
+        "id": "g9",
+        "name": "Chilly",
+        "price": 20,
+        "image": "./grocery/chilly.png"
+
+    },
+    {
+        "id": "g10",
+        "name": "Fennel",
+        "price": 20,
+        "image": "./grocery/fennel-seeds.png"
+
+    },
+    {
+        "id": "g11",
+        "name": "Thyme",
+        "price": 20,
+        "image": "./grocery/thyme-seeds.png"
+
+    },
+    {
+        "id": "g12",
+        "name": "Dalchini",
+        "price": 20,
+        "image": "./grocery/dalchini.png"
+
+    }
+]

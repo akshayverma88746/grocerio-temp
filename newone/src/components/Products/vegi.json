@@ -1,0 +1,87 @@
+[
+    {
+        "id": "v1",
+        "name": "Bittergourd",
+        "price": 20,
+        "image": "./vegetables/bittergourd.png"
+
+    },
+    {
+        "id": "v2",
+        "name": "Carrot",
+        "price": 20,
+        "image": "./vegetables/carrot.png"
+
+    },
+    {
+        "id": "v3",
+        "name": "Cauliflower",
+        "price": 20,
+        "image": "./vegetables/cauliflower.png"
+
+    },
+    {
+        "id": "v4",
+        "name": "Capsicum",
+        "price": 20,
+        "image": "./vegetables/capsicum.png"
+
+    },
+    {
+        "id": "v5",
+        "name": "Peas",
+        "price": 20,
+        "image": "./vegetables/peas.png"
+
+    },
+    {
+        "id": "v6",
+        "name": "Radish",
+        "price": 20,
+        "image": "./vegetables/radish.png"
+
+    },
+    {
+        "id": "v7",
+        "name": "spinach",
+        "price": 20,
+        "image": "./vegetables/spinach.png"
+
+    },
+    {
+        "id": "v8",
+        "name": "Tomato",
+        "price": 20,
+        "image": "./vegetables/tomato.png"
+
+    },
+    {
+        "id": "v9",
+        "name": "Potato",
+        "price": 20,
+        "image": "./vegetables/potato.png"
+
+    },
+    {
+        "id": "v10",
+        "name": "Cabbage",
+        "price": 20,
+        "image": "./vegetables/cabbage.png"
+
+    },
+    {
+        "id": "v11",
+        "name": "EggPlant",
+        "price": 20,
+        "image": "./vegetables/eggplant.png"
+
+    },
+    {
+        "id": "v12",
+        "name": "Brocli",
+        "price": 20,
+        "image": "./vegetables/broccoli.png"
+
+    }
+    
+]

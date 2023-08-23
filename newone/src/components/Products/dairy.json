@@ -1,0 +1,86 @@
+[
+    {
+        "id": "d1",
+        "name": "Milk",
+        "price": 20,
+        "image": "./dairy/milk.png"
+
+    },
+    {
+        "id": "d2",
+        "name": "Butter Milk",
+        "price": 20,
+        "image": "./dairy/buttermilk.png"
+
+    },
+    {
+        "id": "d3",
+        "name": "Cheese",
+        "price": 20,
+        "image": "./dairy/cheese.png"
+
+    },
+    {
+        "id": "d4",
+        "name": "Curd",
+        "price": 20,
+        "image": "./dairy/curd.png"
+
+    },
+    {
+        "id": "d5",
+        "name": "Ghee",
+        "price": 20,
+        "image": "./dairy/ghee.png"
+
+    },
+    {
+        "id": "d6",
+        "name": "Lassi",
+        "price": 20,
+        "image": "./dairy/lassi.png"
+
+    },
+    {
+        "id": "d7",
+        "name": "Paneer",
+        "price": 20,
+        "image": "./dairy/paneer.png"
+
+    },
+    {
+        "id": "d8",
+        "name": "Milkshake",
+        "price": 20,
+        "image": "./dairy/milkshake.png"
+
+    },
+    {
+        "id": "d9",
+        "name": "Condensed Milk",
+        "price": 20,
+        "image": "./dairy/condensedmilk.png"
+
+    },
+    {
+        "id": "d10",
+        "name": "Wipedcream",
+        "price": 20,
+        "image": "./dairy/wipedcream.png"
+
+    },
+    {
+        "id": "d11",
+        "name": "Ice-cream",
+        "price": 20,
+        "image": "./dairy/icecream.png"
+
+    },
+    {
+        "id": "d11",
+        "name": "Greek Yogurt",
+        "price": 20,
+        "image": "./dairy/yogurt.png"
+
+    }
+]

@@ -1,0 +1,35 @@
+.dropDownProfile{
+    position: absolute;
+    font-weight: 600;
+    top:6.5rem;
+    right: 7rem;
+    width: 100px;
+    padding-right: 10.5rem;
+    
+    border-radius: 15px;
+    background: rgba(255,255,255,0.45);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255,255,255,0.225);
+    
+}
+
+.dropDownProfile::before{
+    position: absolute;
+    top: -2rem;
+    width: 25px;
+    height:25px;
+    background-color: white;
+}
+
+/* .dropDownProfile::before{
+    content: '';
+    position: absolute;
+    top: -0.6rem;
+    right: 0.9rem;
+    width: 19px;
+    height: 17px;
+    transform: rotate(45deg);
+    background: rgba(255,255,255,0.45);
+    
+} */

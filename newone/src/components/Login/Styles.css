@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,800");
+
+* {
+  box-sizing: border-box;
+}
+
+.lg {
+
+  width: 100%;
+  background: url("./l1.gif") fixed no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -15px 0 -10;
+  
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .social-icon {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.3rem 0.45rem;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+ 
+  .social-icon:hover {
+    color: #4481eb;
+    border-color: #4481eb;
+  }
+  
+  .social-text {
+    /* padding: 0.rem 0; */
+    font-size: 0.7rem;
+  }
+ .passicon{
+    top:51.5%;
+    margin-left: 20px;
+    right: 13%;
+    position:absolute;
+    cursor: pointer;
+}
+.passign {
+    top:40.5%;
+    right: 13%;
+    position:absolute;
+}
+ 

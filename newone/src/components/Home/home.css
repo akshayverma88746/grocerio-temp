@@ -1,0 +1,609 @@
+
+.back{
+  width: 100%;
+  background: url("Abstract.png") fixed no-repeat center;
+  
+  background-size: cover;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+    margin-top: 0px;
+    font-family: 'Mukta', sans-serif; 
+   
+}
+
+/* ::-webkit-scrollbar
+{
+  width: 17px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent,#ffcf36);
+  border-radius: 6px;
+} */
+.button-18 {
+  align-items: center;
+  background-color: #383337;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: 'Mukta', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+.button-18:hover,
+.button-18:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+.button-18:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.button-18:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+ 
+  .content {
+    float: right; /* Float the container to the right */
+  }
+  
+  .buttons {
+    float: right;
+  }
+  
+  .but1 {
+    padding-top: 40px;
+    padding-right: 60px;
+  }
+  
+  .but2 {
+    padding-top: 40px;
+    padding-right: 60px;
+  }
+  
+  .img-container {
+    float: right;
+    clear: right; /* This ensures the image is placed below the buttons */
+  }
+  
+  .img {
+    padding-top: 100px;
+    height: 800px;
+    padding-right: 0px;
+  }
+  
+ 
+ 
+ 
+ .moto{
+    padding-top: 60px;
+    padding-left: 50px; 
+    font-size: 50px;
+    line-height: 0.40;
+    padding-bottom: 20px;
+    color: #323335;
+    
+ }
+ 
+ #ptag{
+  padding-left: 50px; 
+  line-height: 0.35px;
+  font-size: 22px;
+  color: #323335;
+ }
+ 
+ .glass{ 
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  background:rgba(255, 255, 255, .5);
+  box-shadow: 0 25px 45px rgba(0, 0, 0,.2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255,.2);
+  border-right: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 2px solid rgba(255, 255, 255,.2);
+  backdrop-filter: blur(10px);
+  left: 120px;
+  top: 750px;
+ }
+ 
+ .glass1{ 
+  position: absolute;
+  width: 150px;
+  height: 180px;
+  background:rgba(255, 255, 255, .5);
+  box-shadow: 0 25px 45px rgba(0, 0, 0,.2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255,.2);
+  border-right: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 2px solid rgba(255, 255, 255,.2);
+  backdrop-filter: blur(10px);
+  left: 380px;
+  top: 750px;
+ }
+ 
+ .main-glass{
+  margin-left: 100px;
+  position: absolute;
+  width: 90%;
+  height: 1200px;
+  background:rgba(255, 255, 255, .5);
+  box-shadow: 0 25px 45px rgba(0, 0, 0,.2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255,.2);
+  border-right: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 2px solid rgba(255, 255, 255,.2);
+  backdrop-filter: blur(10px);
+  top: 1100px;
+ }
+ 
+ .about-glass{
+  margin-left: 100px;
+  position: absolute;
+  width: 90%;
+  height: 80%;
+  background:rgba(255, 255, 255, .5);
+  box-shadow: 0 25px 45px rgba(0, 0, 0,.2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255,.2);
+  border-right: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 2px solid rgba(255, 255, 255,.2);
+  backdrop-filter: blur(10px);
+  top: 3400px;
+ }
+ 
+ .cont-glass{
+  margin-left: 100px;
+  position: absolute;
+  width: 90%;
+  height: 60rem;
+  background:rgba(255, 255, 255, .5);
+  box-shadow: 0 25px 45px rgba(0, 0, 0,.2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255,.2);
+  border-right: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 2px solid rgba(255, 255, 255,.2);
+  backdrop-filter: blur(10px);
+  top: 4400px;
+ }
+ .contact{ 
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background: rgb(106, 140, 247, .9);
+  box-shadow: 0 25px 45px rgb(106, 140, 247, .5);
+  border-radius: 30px;
+  border: 2px solid rgba(255, 255, 255,.2);
+  border-right: 2px solid rgba(255, 255, 255, .2);
+  border-bottom: 2px solid rgba(255, 255, 255,.2);
+  backdrop-filter: blur(10px);
+  left: 1700px;
+  top: 900px;
+ }
+ 
+ #comp{
+  padding-top: 15px;
+  padding-left: 15px;
+  width: 120px;
+  height: 120px;
+ }
+ 
+ #ptag1{
+  font-size: 18px;
+  line-height: 0px;
+  padding-left: 30px;
+ }
+ 
+ #msg{
+  width: 60px;
+  height: 60px;
+  padding-top: 9px;
+  padding-left: 6px;
+ }
+ 
+ 
+.glass1 a{
+  border: none;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  
+ }
+ 
+ .glass a{
+  border: none;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  
+ }
+ 
+ .contact a{
+  border: none;
+  outline: none;
+  text-decoration: none;
+  cursor: pointer;
+  
+ }
+ 
+ /* Here is Procducts section */
+ img{
+  height: 200px;
+}
+.fruits{
+  text-align: center;
+  line-height: px;
+  text-align: center;
+  line-height: px;
+  padding-right: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e7ad31;; /* Blue color */
+  margin-bottom: 1rem;/* Convert the text to uppercase */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+.fruits:hover{
+  color: #0056b3; /* Darker shade of blue on hover */
+  transform: scale(1.1); /* Scale up the text on hover */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition */
+}
+.container{
+  margin: 60px;
+  padding-left: 50px;
+}
+.element{
+background: rgb(f,f,f,0.8);
+display: grid;
+grid-auto-flow: column;
+scroll-behavior: auto;
+gap: 1.2rem;
+overflow-y: auto;
+overscroll-behavior-x: contain;
+scroll-snap-type: x mandatory;
+scrollbar-width: none;
+}
+.element::-webkit-scrollbar{
+  display: none;
+}
+
+.cards {
+  background: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 20px;
+  padding: 20px;
+  scroll-snap-align: start;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.cards:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.info {
+  text-align: center;
+  padding: 5px 16px;
+  
+}
+.text{
+  position: relative;
+ }
+.text:before{
+  content:"";
+  position: absolute;
+  bottom: -2px;
+  height: 2px;
+  width: 0;
+  background: #a4b9f5;
+  border-radius: 50px;
+  transition: width 0.3s ease;
+}
+.text:hover:before{
+  width: 100%;
+}
+
+
+.vegetables{
+  padding-top: 50px;
+  text-align: center;
+  line-height: px;
+  padding-right: 10px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e7ad31;; /* Blue color */
+  margin-bottom: 1rem;/* Convert the text to uppercase */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+.vegetables:hover {
+  color: #0056b3; /* Darker shade of blue on hover */
+  transform: scale(1.1); /* Scale up the text on hover */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* ------ */
+ /* Here is contact us */
+
+ .contact_section{
+  position: relative;
+  width: 85%;
+  height: auto;
+  padding: 60px 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+.contact_box_section{
+  
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+}
+   
+.map_section{
+  margin-left: 8rem;
+  width:30%;
+  height: 10%;
+  border-radius: 4px;
+
+} 
+
+
+.form_section{
+  position: absolute;
+  width:35%;
+  height: auto;
+  border-radius: 4px;
+  right:100px;
+  background:#eff2fb ;
+  display: flex;
+  align-items: flex-start;
+  justify-self:center;
+  flex-direction: column;
+  row-gap: 1.1rem;
+  padding: 35px 30px 35px 100px;
+  box-shadow: 5px 5px rgba(68, 27,5,0.12);
+  border:1px solid rgba(143, 143, 143);
+  margin-bottom: 1rem;
+
+}
+ 
+.form_section form{
+  width: 85%;
+  height: auto;
+}
+.input_group{
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.3rem;
+  margin-bottom:1.5rem ;
+}
+.input_box{
+  width: 50%;
+}
+
+.form_section .label {
+  font-size: 1.13rem;
+  font-weight: 600;
+  color: black;
+  display: inline-block;
+  padding: 0.5rem;
+}
+.form_section input{
+  width: 100%;
+  height: 35px;
+  border-radius:4px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size:1.0rem;
+  font-weight: 500;
+
+
+
+}
+
+
+/* Styling for the tag title */
+.tag_title {
+  padding-top: 0px;
+  margin-left: 21rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e7ad31;; /* Blue color */
+  margin-bottom: 0rem;
+  text-transform: uppercase; /* Convert the text to uppercase */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+/* Add animation on hover for the tag title */
+.tag_title:hover {
+  color: #0056b3; /* Darker shade of blue on hover */
+  transform: scale(1.1); /* Scale up the text on hover */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Style for the description */
+.desc {
+  font-size: 1.2rem;
+  margin-left: 31rem;
+  color: #555555; /* Dark gray color */
+  margin-bottom: 1.5rem;
+  line-height: 1.6; /* Increase line height for better readability */
+  text-align: center; /* Center-align the text */
+  max-width: 800px; /* Limit the width of the description */
+}
+
+
+.message_box{
+   width: 100%;
+   height: auto;
+   display: flex;
+   align-items: flex-start;
+   flex-direction:column ;
+   margin-bottom: 2rem;
+}
+.message_box .desc {
+  font-size: 1.13rem;
+  font-weight: 600;
+  color: #000000; /* Change color to black */
+  display: inline-block;
+  padding: 0.5rem;
+}
+.form_section textarea{
+  width: 100%;
+  height: 35px;
+  border-radius:4px;
+  outline: none;
+  border: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size:1.0rem;
+  font-weight: 500;
+
+}
+/* .submit_btn{
+  border-radius: 4px  !important;
+} */
+.submit_btn {
+  border-radius: 40px;
+  padding: 10px 20px;
+  background-color: #323335;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit_btn:hover {
+  background-color: #16437E;
+}
+
+
+/* 
+here is about us */
+/* Styling for the About Us section */
+/* Styling for the About Us section */
+/*
+
+/* Styling for the About Us section */
+#about {
+  position: relative;
+  width: 97%;
+  height: 0%;
+  padding: 1rem 55rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tag_titlee {
+  padding-top: 0px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #e7ad31;; /* Blue color */
+  margin-bottom: 1rem;
+  text-transform: uppercase; /* Convert the text to uppercase */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+/* Add animation on hover for the tag title */
+.tag_titlee:hover {
+  color: #0056b3; /* Darker shade of blue on hover */
+  transform: scale(1.1); /* Scale up the text on hover */
+  transition: color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.about-description {
+  text-align: center;
+}
+
+.about-description h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007BFF; /* Blue color */
+  margin-bottom: 1rem;
+  font-family: "Arial", sans-serif; 
+  text-transform: uppercase; /* Convert the text to uppercase */
+}
+
+.about-description p {
+  font-size: 1.1rem;
+  color: #333; /* Dark gray color */
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+/* Tag Indicator Styling */
+.tag_indicato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.tag_indicato::before,
+.tag_indicato::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.tag_indicato .circle {
+  width: 12px;
+  height: 12px;
+  background-color: #007BFF; /* Blue color */
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+/* Style for the <p> tag inside .tag_indicato */
+.tag_indicato p {
+  padding: 0 0px; /* Add left and right padding */
+  font-size: 1.1rem;
+  color: #333; /* Dark gray color */
+  line-height: 1.6;
+  max-width: 600px;
+}
