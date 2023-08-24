@@ -8,15 +8,16 @@ import Dairyroute from './components/Products/Dairyroute'
 import Otherroute from './components/Products/Otherroute'
 import Profile from './components/Profile/Profile';
 import Logout from './components/Logout/Logout';
-
 import { createContext, useReducer } from 'react';
-// export const UserContext = createContext();
-
+import { initialState, reducer } from './reducer/UseReducer';
+export const UserContext = createContext();
 
 const  App = () => {
+  const [state, dispatch] = useReducer(reducer, initialState)
   
   return (
-  // <UserContext.Provider>
+  
+  <UserContext.Provider value={{state, dispatch}}>
    <Router>
       <Routes>
         <Route exact path = "/" Component={Home}/>
@@ -29,8 +30,8 @@ const  App = () => {
         <Route exact path = "/profile" Component={Profile}/>
         <Route exact path = "/logout" Component={Logout}/>
       </Routes>
-   </Router>
-  //  </UserContext.Provider>
+    </Router>
+   </UserContext.Provider>
   );
 }
 

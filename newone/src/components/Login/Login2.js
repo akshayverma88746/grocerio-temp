@@ -9,11 +9,11 @@ import {useNavigate ,BrowserRouter as Router, Link, NavLink} from "react-router-
 import * as Components from './components';
 import Home from "../Home/Home"
 import "./Styles.css";
-
 import e from "cors";
+import {UserContext} from "C:/Users/Akshay/Desktop/grocerio - Copy/newone/src/App.js"
 
 function Login2() {
-   
+    const {state, dispatch} = useContext(UserContext)
     const navigate = useNavigate();
     const [signIn, toggle] = React.useState(true);
     const [show ,setshow] = useState(false);
@@ -71,11 +71,12 @@ function Login2() {
         });
         const data = await result.json();
         if(data){
-            console.log(`Login Successful`);
+            dispatch({type:"USER", payload:true})
+            window.alert(`Login Successful`);
             navigate("/")
         }
         else{
-            console.log(`Error`)
+            window.alert(`Error`)
         }
     }
     

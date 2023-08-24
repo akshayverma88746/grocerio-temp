@@ -1,7 +1,9 @@
 "use client";
-import React, { useEffect } from 'react'
+import React, { useEffect, useContext } from 'react'
 import {useNavigate} from "react-router-dom";
+import {UserContext} from "C:/Users/Akshay/Desktop/grocerio - Copy/newone/src/App.js"
 const Logout = () => {
+  const {state, dispatch} = useContext(UserContext)
   const history = useNavigate();
   const getData = async () =>{
     try {
@@ -16,6 +18,8 @@ const Logout = () => {
 
 
         if(result.status === 200){
+            dispatch({type:"USER", payload:false})
+            window.alert("Logout Successful")
             history("/")
         }
 
